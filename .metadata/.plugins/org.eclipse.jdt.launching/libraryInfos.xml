@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="D:\Wheel\12JDK\JAVA" version="1.8.0_181">
+<bootpath>
+<entry path="D:\Wheel\12JDK\JAVA\lib\resources.jar"/>
+<entry path="D:\Wheel\12JDK\JAVA\lib\rt.jar"/>
+<entry path="D:\Wheel\12JDK\JAVA\lib\sunrsasign.jar"/>
+<entry path="D:\Wheel\12JDK\JAVA\lib\jsse.jar"/>
+<entry path="D:\Wheel\12JDK\JAVA\lib\jce.jar"/>
+<entry path="D:\Wheel\12JDK\JAVA\lib\charsets.jar"/>
+<entry path="D:\Wheel\12JDK\JAVA\lib\jfr.jar"/>
+<entry path="D:\Wheel\12JDK\JAVA\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Wheel\12JDK\JAVA\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Wheel\12JDK\JAVA\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
