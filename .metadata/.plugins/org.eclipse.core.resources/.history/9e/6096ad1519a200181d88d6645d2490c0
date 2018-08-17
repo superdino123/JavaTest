@@ -1,0 +1,10 @@
+package com.tutorialspoint.CDTest;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages="com.tutorialspoint.CDTest")
+public class CDPlayerConfig {
+	// @@ComponentScan 默认扫描与配置类相同的包 
+}

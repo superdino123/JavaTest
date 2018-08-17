@@ -1,0 +1,6 @@
+package com.tutorialspoint.CDTest;
+
+@Component
+public class CDPlayer {
+
+}

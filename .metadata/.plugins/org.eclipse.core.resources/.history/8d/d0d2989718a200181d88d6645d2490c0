@@ -1,0 +1,16 @@
+package com.tutorialspoint.CDTest;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class SgtPeppers implements CompactDisc {
+	
+	private String title = "Sgt. Pepper's Lonely Hearts Club Band";
+	private String artist = "The Beatles";
+	
+	@Override
+	public void play() {
+		// TODO 自动生成的方法存根
+		System.out.println("Playing " + title + " by " + artist);
+	}
+}

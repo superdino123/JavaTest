@@ -1,0 +1,30 @@
+package com.tutorialspoint.CDTest;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+@Component("lonelyHeartsClub")
+public class SgtPeppers implements CompactDisc {
+	
+	private String title = "Sgt. Pepper's Lonely Hearts Club Band";
+	private String artist = "The Beatles";
+	
+	@Override
+	public void play() {
+		// TODO 自动生成的方法存根
+		System.out.println("Playing " + title + " by " + artist);
+	}
+	
+	@Bean("lonelyHeartsClubBand")
+	public CompactDisc sgtPeppers() {
+		// @Bean 注解告诉Spring这个方法将会返回一个对象，这对象要注册为Spring应用上下文中的bean
+		// 默认Bean的id与方法名相同
+		// 属性 name ：自定义Bean 的id
+		return new SgtPeppers();
+	}
+	
+	@Bean
+	public CDPlayer cdPlayer() {
+		return new CDPlayer(sgtPeppers());
+	}
+}

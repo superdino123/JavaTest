@@ -1,0 +1,15 @@
+package com.tutorialspoint.CDTest;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages="com.tutorialspoint.CDTest")
+public class CDPlayerConfig {
+	// @@ComponentScan 默认扫描与配置类相同的包 
+		//属性：basePackages————设置需要扫描的包的包名
+			//扫描多个包————basePackages={"soundsystem"， "video"}
+			//扫描类，规避字符串弊端————basePackages={CDPlayer.class, DVDPlayer.class}
+	
+}

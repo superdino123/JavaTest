@@ -1,0 +1,18 @@
+package com.tutorialspoint.CDTest;
+
+import static org.junit.Assert.assertNotNull;
+
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes=CDPlayerConfig.class)
+public class CDPlayerTest {
+	
+	private CompactDisc cd;
+	
+	public void cdShouldNotBeNumm() {
+		assertNotNull(cd);
+	}
+}

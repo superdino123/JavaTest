@@ -67,5 +67,7 @@
 	<classpathentry kind="lib" path="D:/Wheel/19Spring/spring-framework-5.0.8.RELEASE/libs/spring-websocket-5.0.8.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="D:/Wheel/17CommonLog/commons-logging-1.2/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/Wheel/17CommonLog/commons-logging-1.2/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="D:/zhengweidi001/Downloads/system-rules-1.4.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

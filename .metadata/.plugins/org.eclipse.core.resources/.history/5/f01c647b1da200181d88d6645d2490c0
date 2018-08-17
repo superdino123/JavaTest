@@ -1,0 +1,17 @@
+package com.tutorialspoint.CDTest;
+
+import org.junit.Rule;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes=CDPlayerConfig.class)
+public class CDPlayerTestTwo {
+	
+	@Rule
+	public final StandardOutputStreamLog log = new StandardOutputStreamLog();
+	
+	@Autowired
+	private MediaPlayer player;
+}

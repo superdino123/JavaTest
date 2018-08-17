@@ -1,0 +1,5 @@
+package com.tutorialspoint.CDTest;
+
+public interface MediaPlayer {
+	public CDPlayer(CompactDisc cd);
+}
